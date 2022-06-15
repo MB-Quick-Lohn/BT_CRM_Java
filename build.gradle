@@ -1,0 +1,14 @@
+plugins {
+    id 'application' 
+}
+
+group = 'de.quick'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnit()
+}
